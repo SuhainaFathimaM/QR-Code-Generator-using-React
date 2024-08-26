@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.app-container{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.app-container h1{
+    font-weight: 800;
+    font-size: 25px;
+    color: #5151e5;
+    border-bottom: 1px solid #f1efef;
+    padding: 10px 0;
+
+}
+
+.QRimage{
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.input-label{
+    display: block;
+    margin-bottom: 8px;
+    color: #5151e5;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #5151e5;
+    border-radius: 5px;
+}
+
+button{
+    padding: 15px 20px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20p;
+    margin-left: 20px;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+.generatebtn{
+    background: blue ;
+}
+
+.generatebtn:hover{
+    background: #5151e5;
+}
+
+.generatebtn:disabled{
+    background: grey;
+    cursor: not-allowed;
+}
+
+.downloadbtn{
+    
+    background: rgb(13, 176, 13);
+}
+
+.downloadbtn:hover{
+    background: green;
+}
+
+.footer{
+    margin-top: 40px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #5151e5;
+}

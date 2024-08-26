@@ -1,0 +1,32 @@
+.heading{
+    color: blue;
+}
+
+.para{
+    color: brown;
+}
+
+.code{
+    color: blueviolet;
+}
+
+.err{
+    color: violet;
+}
+.student table{
+    border: 1px solid #ccc;
+    width: 300px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+.student table th, .student table td{
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.student table th{
+    width: 100px;
+}
